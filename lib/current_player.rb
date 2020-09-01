@@ -4,6 +4,7 @@ def turn_count(board)
     if "X" || "O"
       num_of_turns_played += 1
     end
+  end  
   num_of_turns_played
 end  
 
