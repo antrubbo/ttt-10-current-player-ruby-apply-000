@@ -1,7 +1,7 @@
 def turn_count(board)
   num_of_turns_played = 0
   board.each do |space|
-    if "X" || "O"
+    if board[index] == "X" || board(index) == "O"
       num_of_turns_played += 1
     end
   end  
